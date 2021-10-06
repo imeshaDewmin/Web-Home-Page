@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>PHOTOBOOTHLK HOME PAGE</title>
+  </head>
+  <body>
+      <section class="header">
+        <nav>
+          <a href="" class="index">PHOTOBOOTHLK</a>
+          <div class="nav-links" id="navLinks">
+            <span onclick="hideMenu()"><i class="fa fa-times" id="fa" aria-hidden="true"></i></span>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="Aboutus.html">About Us</a></li>
+              <li><a href="whatwedo.html">What We Do</a></li>
+              <li><a href="howwework.html">How We Work</a></li>
+              <li><a href="packages.html">Packages</a></li>
+              <li><a href="offers.html">Offers</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <span onclick="showMenu()"><i class="fa fa-bars" id="fa" aria-hidden="true"></i></span>
+        </nav>
+        <div class="text-box">
+          <h1>Collect Moments Not Things</h1>
+          <p>
+            We live in a rapidly changing world in which images play an important, even central, role. 
+            With widespread use of personal electronics, we instantaneously deliver and receive sound, video, 
+            and text messages.
+          </p>
+        </div>
+      </section>
+
+      <section class="intro">
+        <h1>What is an art?</h1>
+        <p>
+          Art is a form of expression for imaginative or technical skill. It creates a finished result, a thing. 
+          Art encompasses a wide range of human activities involving the creation of visual and performance 
+          artifacts as well as the expression of the author's imaginative imagination. A work of art is a finished 
+          piece of art that is meant to be seen by others.
+        </p>
+      </section>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 id="type">Types of Art Creations</h1>
+          </div>
+        </div>
+        <div class="row" style="margin-bottom: 20px;">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
+            <h5 style="text-align: center;">Painting Arts</h5>
+            <img src="Images/paint.jpg" alt="" class="arts" style="width: 250px; height: 250px;">
+            <p class="pra">Painting is the application of pigments to a support surface that establishes an image, design or decoration. In art the term “painting” describes both the act and the result. Most painting is created with pigment in liquid form and applied with a brush.</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
+            <h5 style="text-align: center;">Wood Arts</h5>
+            <img src="Images/wood.jpg" alt="" class="arts" style="width: 250px; height: 250px;">
+            <p class="pra">As both an ancient and contemporary art medium, wood has been used to create sculpture, crafts, and functional objects of art. An extensive array of wood types has been used in the creation of artistic objects. Wood finishes have ranged from natural to painted or stained.</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
+            <h5 style="text-align: center;">Photo Arts</h5>
+            <img src="Images/photo.jpg" alt="" class="arts" style="width: 250px; height: 250px;">
+            <p class="pra">Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h1 id="type">We are doing Photo arts With Your Beutiful Photos</h1>
+            <h3 id="beu">We can make a beutiful day for your choice</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h3 id="beu">Below are some of our creations</h3>
+          </div>
+        </div>
+        <section class="footer">
+
+        </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h3 id="beu">Join and Enjoy With Us!</h3>
+        </div>
+      </div>
+
+      <div class="bottom"><h2>Copyright © 2021 PHOTOBOOTHLK | Designed by PHOTOBOOTHLK</h2></div>
+
+      <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu()
+        {
+          navLinks.style.right = "0";
+        }
+        function hideMenu()
+        {
+          navLinks.style.right = "-200px";
+        }
+
+      </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
